@@ -1,18 +1,17 @@
-This is a github repository containing Aaron Stump's *Iowa Agda Library (IAL)*, 
-for those of us who don't use svn and wish to obtain IAL using github.
+This is a github repository containing Aaron Stump's *Iowa Agda Library (IAL)* 
+(for those of us who don't use svn and wish to obtain IAL using github).
 
 The original IAL distribution is available at
 
 https://svn.divms.uiowa.edu/repos/clc/projects/agda/ial-releases/
 
-The IAL is protected under the MIT license. 
-See the original LICENSE.txt file included with this repository.
+This software is protected under the MIT license. 
+See the LICENSE.txt file included with this repository.
 
 --------------------------------------
 
 ## The Iowa Agda Library (IAL)
 
-**Version:** 1.3  
 **Author:** Aaron Stump
 
 1. **About the library**  
