@@ -1,7 +1,7 @@
 ## The Iowa Agda Library (IAL)
 
-**Version** 1.3  
-**Author** Aaron Stump
+**Version:** 1.3  
+**Author:** Aaron Stump
 
 1. **About the library**  
    The goal is to provide a concrete library focused on verification
