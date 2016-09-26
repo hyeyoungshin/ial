@@ -36,7 +36,7 @@
    You can get some overview of what is in the library by following
    imports from lib.agda (this is the main entry point for the library).
 
-4. **Credits**
+4. **Credits**  
    The library is mostly written by myself, but it also includes some
    contributions from John Bodeen, Harley Eades, and undergraduates who
    took my Programming Language Concepts class, Spring 2014 and 2015,
