@@ -1,6 +1,7 @@
-The Iowa Agda Library (IAL)
-Version 1.2
-Aaron Stump
+## The Iowa Agda Library (IAL)
+
+**Version** 1.2
+**Author** Aaron Stump
 
 1. About the library
 
