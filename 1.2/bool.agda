@@ -24,32 +24,32 @@ bool = 𝔹
 -- syntax
 ----------------------------------------------------------------------
 
-infix  7 ~_
+infix  7 ¬_
 infix 6 _xor_ _nand_
-infixr 6 _&&_
-infixr 5 _||_ 
+infixr 6 _∧_ 
+infixr 5 _∨_ 
 infix  4 if_then_else_   if*_then_else_
-infixr 4 _imp_ 
+infixr 4 _⊃_ 
 
 ----------------------------------------------------------------------
 -- operations
 ----------------------------------------------------------------------
 
 -- not
-~_ : 𝔹 → 𝔹
-~ tt = ff
-~ ff = tt
+¬_ : 𝔹 → 𝔹
+¬ tt = ff
+¬ ff = tt
 
 
 -- and
-_&&_ : 𝔹 → 𝔹 → 𝔹
-tt && b = b
-ff && b = ff
+_∧_ : 𝔹 → 𝔹 → 𝔹
+tt ∧ b = b
+ff ∧ b = ff
 
 -- or
-_||_ : 𝔹 → 𝔹 → 𝔹
-tt || b = tt
-ff || b = b
+_∨_ : 𝔹 → 𝔹 → 𝔹
+tt ∨ b = tt
+ff ∨ b = b
 
 if_then_else_ : ∀ {ℓ} {A : Set ℓ} → 𝔹 → A → A → A
 if tt then y else z = y
@@ -66,9 +66,9 @@ tt xor tt = ff
 ff xor ff = ff
 
 -- implication
-_imp_ : 𝔹 → 𝔹 → 𝔹 
-tt imp b2 = b2
-ff imp b2 = tt
+_⊃_ : 𝔹 → 𝔹 → 𝔹 
+tt ⊃ b2 = b2
+ff ⊃ b2 = tt
 
 -- also called the Sheffer stroke
 _nand_ : 𝔹 → 𝔹 → 𝔹
@@ -78,4 +78,4 @@ ff nand tt = tt
 ff nand ff = tt
 
 _nor_ : 𝔹 → 𝔹 → 𝔹
-x nor y = ~ (x || y)
+x nor y = ¬ (x ∨ y)
